@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Healthcare App</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<br />
+			<section id="top">
+					<center><img src="images/health.png" width="40%" height="40%"/><center>
+				<center><footer>
+					<a href="#banner" class="button style2 scrolly scrolly-centered">Find your doctor!</a>
+				</footer></center>
+				<br/><br/>
+			</section>
+		
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>Don't risk your health. Choose a task.</h2>
+				</header>
+				<a href="#first" class="button style2 scrolly">Request an appointment</a> &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="#look" class="button style2 scrolly">Look for a Doctor near you!</a>
+				<footer>
+					<a href="#banner2" data-transition="fade" class="button style2 scrolly">Know more about the app and it's creator</a>
+				</footer>
+			</section>
+		
+		<!-- Feature 1 -->
+			<article id="first" class="container box style1 right">
+				<iframe src="https://docs.google.com/forms/d/11H6PUwnZhgni6w5M52rtgudc2RFYX-7AXNxxnIHniac/viewform?usp=send_form" width="100%" height="500" >Please wait...</iframe>
+			</article>
+				<center><footer>
+					<a href="#banner" class="button style2 scrolly scrolly-centered">Go up one page</a>
+					<a href="#top" class="button style2 scrolly scrolly-centered">Back to top</a>
+				</footer></center>
+				
+		<!-- Feature 2 -->
+			<article id="look" class="container box style1 left" style="background-color: #00001E">
+				&nbsp;&nbsp;<a href="images/logo.png" class="image fit"><img src="images/logo.png" width="500" alt="" /></a>
+				<div data-role="page" id="search" padding="20px">
+				<select name="select">
+				  <option selected="Choose specialization:">Choose specialization:</option>
+				  <option value="Physician">Physician</option>
+				  <option value="Cardiologist">Cardiologist</option>
+				  <option value="Psychologist">Psychologist</option>
+				  <option value="Dentist">Dentist</option>
+				</select>
+				<br />
+				<br />
+				<select name="select2">
+				  <option selected="Choose location:">Choose location:</option>
+				  <option value="Manila">Manila</option>
+				  <option value="Bulacan">Bulacan</option>
+				  <option value="Batangas">Batangas</option>
+				  <option value="Cavite">Cavite</option>
+				</select>
+				<footer>
+					<a href="results.html" data-transition="fade" class="button style2 scrolly scrolly-centered">Search</a>
+				</footer>
+				</div>
+				</div>
+			</article><br />
+				<center><footer>
+					<a href="#first" class="button style2 scrolly scrolly-centered">Go up one page</a>
+					&nbsp;&nbsp;<a href="#top" class="button style2 scrolly scrolly-centered">Back to top</a>
+				</footer></center>
+		
+		
+			<br /><br />
+			<section id="banner2">
+				<header>
+					<h2>Know more about the App.</h2>
+					<p align="justify" font-size="20px" font-family="Trebuchet MS"> This app was created by Paulo C. Nazareno, a third year Information Technology student studying at the University of Santo Tomas
+					with the intention of helping people find a suitable doctor to see in the nearest place near them. This app not only lets people find
+					the doctor they need but also allows people to request an appointment with the chosen doctor by filling up the form provided in the app.</p>
+				</header>
+				
+			</section>
+		
+		<!-- Contact -->
+			<article class="container box style3">
+				<header>
+					<h2>Send me a feedback!</h2>
+					<p>Let me know what you think about the App.</p>
+				</header>
+				<form method="post" action="submitted.html">
+					<div class="row 50%">
+						<div class="6u"><input type="text" class="text" name="name" placeholder="Name" /></div>
+						<div class="6u"><input type="text" class="text" name="email" placeholder="Email" /></div>
+					</div>
+					<div class="row 50%">
+						<div class="12u">
+							<textarea name="message" placeholder="Message"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</article>
+			
+		
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="https://www.twitter.com/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			</ul>
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; 2014. All rights reserved.</li><li>Design: Paulo C. Nazareno 3 - ITD</li>
+				</ul>
+			</div>
+		</section>
+
+	</body>
+</html>
